@@ -7,7 +7,7 @@ var initMap = function( data ) {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 4,
         center: new google.maps.LatLng(lat, lon),
-        mapTypeId: 'satellite'
+        mapTypeId: 'roadmap'
     });
 };
 
